@@ -1,0 +1,11 @@
+ipdb==0.13.13
+ipython==9.10.0
+jedi==0.19.2
+jupyter==1.1.1
+matplotlib==3.10.8
+numpy==2.4.2
+pillow==12.1.1
+PyYAML==6.0.3
+requests==2.32.5
+scipy==1.17.1
+
