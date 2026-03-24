@@ -36,8 +36,13 @@ class EndArrow(patheffects.AbstractPathEffect):
         self.facecolor = facecolor
 
         self.trans = Affine2D()
+        # Warning: incorrect position! Fix it!
         self.arrowpath = mPath(
-            np.array([[-0.5, -0.2], [0.0, 0.0], [0.5, -0.2], [0.0, 1.0], [-0.5, -0.2]]),
+            np.array([[-0.005, -0.002],
+                      [0.0, 0.0],
+                      [0.005, -0.002],
+                      [0.0, 0.001],
+                      [-0.005, -0.002]]),
             np.array([1, 2, 2, 2, 79])
             )
 
